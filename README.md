@@ -8,7 +8,7 @@
   
 ## DATA IMPORTATION
 
-  We must firstly open trader workstation on your desktop and enable your api to run. Click [here](https://interactivebrokers.github.io/tws-api/index.html) for more information. You will now have to connect your Rstudio application to trader workstation. You will have to use the _twsConnect_ (with they talked about on the link) function to.
+  We must firstly open trader workstation on your desktop and enable your api to run. Click [here](https://interactivebrokers.github.io/tws-api/index.html) for more information. You will now have to connect your Rstudio application to trader workstation. You will have to use the _twsConnect_ (which they talked about on the link) function to.
 
 ```{r}
 library(IBrokers)
