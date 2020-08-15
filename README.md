@@ -3,12 +3,12 @@
 
   Thechinical Analysis is a style of trading opposed to fundamentals. One of the main techincal analysis strategy is chart analysis.That project will try to find keys level to take a trade on the stock market. That project will evlute and we will slowly add more charts figures.
    We will first try to find one of the most weel known wat to trade with chart analysis: _SUPPORT AND RESISTANCE_
-   You got to buy a stock on a support level and to sell it on a resistance level. You can also wait the support (resitance) to be broke before selling(buying). As we always say. The trend is your friend.To know more about technical analysis click just right [here](https://www.investopedia.com/articles/active-trading/102914/technical-analysis-strategies-beginners.asp)
+   You got to buy a stock on a support level and to sell it on a resistance level. You can also wait the support (resitance) to be broke before selling (buying). As we always say. The trend is your friend.To know more about technical analysis click just right [here](https://www.investopedia.com/articles/active-trading/102914/technical-analysis-strategies-beginners.asp).
   The project will run on trader workstation from Interractive broker; why? Just because they offer a well integreated api services with Rstudio, VBA and Excel. But don't run if you don't work with Rstudio just download the Excel file and run to the setion named _find keys level_
   
 ## DATA IMPORTATION
 
-  We must firstly open trader workstation on your desktop and enable your api to run. Click [here](https://interactivebrokers.github.io/tws-api/index.html)for more information. You will now have to connect your Rstudio application to trader workstation. You will have to use the _twsConnect_ (with they talked about on the link) function to.
+  We must firstly open trader workstation on your desktop and enable your api to run. Click [here](https://interactivebrokers.github.io/tws-api/index.html) for more information. You will now have to connect your Rstudio application to trader workstation. You will have to use the _twsConnect_ (with they talked about on the link) function to.
 
 ```{r}
 library(IBrokers)
